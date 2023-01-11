@@ -1,7 +1,34 @@
 {
-    "products": [
-        {"id": 1, "name": "Caneta BIC Preta", "price": 5.89},
-        {"id": 2, "name": "Notebook Mac", "price": 12000.00},
-        {"id": 3, "name": "Samsung", "price": 4000.00}
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac",
+      "price": 12000
+    },
+    {
+      "id": 3,
+      "name": "Samsung",
+      "price": 4000
+    },
+    {
+      "name": "Garrafinha",
+      "price": 125.98,
+      "id": 4
+    },
+    {
+      "name": "Veio do formulário",
+      "price": "9.99",
+      "id": 5
+    },
+    {
+      "name": "Geladeira",
+      "price": "1999.99",
+      "id": 6
+    }
+  ]
 }
