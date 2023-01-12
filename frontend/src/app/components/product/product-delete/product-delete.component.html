@@ -1,0 +1,23 @@
+<mat-card>
+    <mat-card-title>
+        Excluir Produto
+    </mat-card-title>
+    <form>
+        <mat-form-field>
+            <!-- fazendo o two way data binding -->
+            <input matInput placeholder="Nome" [value]="product.name" desabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" [value]="product.price" desabled>
+        </mat-form-field>
+    </form>
+
+        <button mat-raised-button (click)="deleteProduct()" color="warn">
+            Excluir
+        </button>
+
+        <button mat-raised-button (click)="cancelProduct()">
+            Cancelar
+        </button>
+
+</mat-card>
