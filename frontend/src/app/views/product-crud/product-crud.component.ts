@@ -1,3 +1,4 @@
+import { HeaderService } from './../../components/template/header/header.service';
 // O próprio angular fica responsavel de instanciar o elemento router,
 // para que ele seja utilizado na aplicação.
 // Preciso apenas importa-lo e passar ao contrutor que vamos utilizar o router.
@@ -11,8 +12,12 @@ import {Router} from '@angular/router';
 })
 export class ProductCrudComponent implements OnInit{
 
-  constructor(private router: Router) {
-
+  constructor(private router: Router, private hederService: HeaderService) {
+    hederService.headerData = {
+      title: 'Cadastro de Produtos',
+      icon: 'storefront',
+      routeUrl: '/products'
+    }
   }
 
   ngOnInit(): void {
