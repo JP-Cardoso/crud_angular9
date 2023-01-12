@@ -19,21 +19,6 @@
       "name": "Garrafinha",
       "price": 125.98,
       "id": 4
-    },
-    {
-      "name": "Veio do formulário",
-      "price": "9.99",
-      "id": 5
-    },
-    {
-      "name": "Geladeira",
-      "price": "1999.99",
-      "id": 6
-    },
-    {
-      "name": "Lápis preto",
-      "price": "2.00",
-      "id": 7
     }
   ]
 }
